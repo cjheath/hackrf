@@ -1,0 +1,153 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "00e5afbc-cf8c-40e8-b378-e4fd9cf88403")
+	(paper "User" 431.8 279.4)
+	(title_block
+		(title "HackRF One")
+		(date "2020-09-06")
+		(company "Copyright 2012-2018 Michael Ossmann")
+		(comment 1 "License: GPL v2")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 78.232 64.135) (xy 78.74 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d670cc0-e4a3-49da-89e1-4e57080b6e13")
+	)
+	(wire
+		(pts
+			(xy 78.74 64.135) (xy 78.74 62.103)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d836849f-a62e-4013-8d35-59d85afa20bc")
+	)
+	(sheet
+		(at 64.77 60.96)
+		(size 26.67 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005037043e")
+		(property "Sheetname" "mcu/usb/power"
+			(at 64.77 60.1214 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 64.77 65.4562 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 72.39)
+		(size 26.67 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000050370666")
+		(property "Sheetname" "baseband"
+			(at 64.77 71.5514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "baseband.kicad_sch"
+			(at 64.77 76.8862 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 83.82)
+		(size 26.67 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000503bb638")
+		(property "Sheetname" "frontend"
+			(at 64.77 82.9814 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "frontend.kicad_sch"
+			(at 64.77 88.3162 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
