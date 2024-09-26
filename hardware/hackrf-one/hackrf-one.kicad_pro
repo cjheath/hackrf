@@ -475,7 +475,8 @@
       "gsg-modules"
     ],
     "pinned_symbol_libs": [
-      "hackrf-one"
+      "hackrf-one",
+      "gsg-kicad-lib"
     ]
   },
   "meta": {
