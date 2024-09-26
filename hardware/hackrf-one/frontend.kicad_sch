@@ -269,6 +269,207 @@
 				)
 			)
 		)
+		(symbol "gsg-kicad-lib:CLA4611_Limiter_Diode"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CLA4611 Limiter Diode"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "gsg-modules:SkyworksLimiterDiode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PIN_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CLA4611_Limiter_Diode_0_1"
+				(polyline
+					(pts
+						(xy -2.286 1.27) (xy -2.286 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.016 0.508) (xy -1.27 0.762) (xy -2.032 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.1016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CLA4611_Limiter_Diode_1_1"
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "hackrf-one:BALUN-B0310J50100AHF-hackrf"
 			(pin_names
 				(offset 1.016) hide)
@@ -591,207 +792,6 @@
 						(effects
 							(font
 								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "hackrf-one:D_Limiter_DualAn-hackrf"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "hackrf_D_Limiter_DualAn"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "gsg-modules:SMP1330-085LF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Limiter_DualAn-hackrf_0_1"
-				(polyline
-					(pts
-						(xy -2.286 1.27) (xy -2.286 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.794 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.016 0.508) (xy -1.27 0.762) (xy -2.032 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.1016)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Limiter_DualAn-hackrf_1_1"
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -27311,7 +27311,7 @@
 		)
 	)
 	(symbol
-		(lib_id "hackrf-one:D_Limiter_DualAn-hackrf")
+		(lib_id "gsg-kicad-lib:CLA4611_Limiter_Diode")
 		(at 379.73 212.09 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27328,7 +27328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMP1330"
+		(property "Value" "CLA4611"
 			(at 381.762 212.598 90)
 			(effects
 				(font
@@ -27337,7 +27337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gsg-modules:SMP1330-085LF"
+		(property "Footprint" "gsg-modules:SkyworksLimiterDiode"
 			(at 379.73 212.09 0)
 			(effects
 				(font
@@ -27356,7 +27356,7 @@
 			)
 		)
 		(property "Description" "Limiter Diode"
-			(at 379.73 212.09 90)
+			(at 379.73 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27373,7 +27373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SMP1330-085LF"
+		(property "Part Number" "CLA4611-085LF"
 			(at 379.73 212.09 90)
 			(effects
 				(font
@@ -27557,7 +27557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "hackrf-one:D_Limiter_DualAn-hackrf")
+		(lib_id "gsg-kicad-lib:CLA4611_Limiter_Diode")
 		(at 389.89 220.98 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27574,7 +27574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMP1330"
+		(property "Value" "CLA4611"
 			(at 391.922 221.488 90)
 			(effects
 				(font
@@ -27583,7 +27583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gsg-modules:SMP1330-085LF"
+		(property "Footprint" "gsg-modules:SkyworksLimiterDiode"
 			(at 389.89 220.98 0)
 			(effects
 				(font
@@ -27602,7 +27602,7 @@
 			)
 		)
 		(property "Description" "Limiter Diode"
-			(at 389.89 220.98 90)
+			(at 389.89 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27619,7 +27619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SMP1330-085LF"
+		(property "Part Number" "CLA4611-085LF"
 			(at 389.89 220.98 90)
 			(effects
 				(font
@@ -27647,7 +27647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "hackrf-one:D_Limiter_DualAn-hackrf")
+		(lib_id "gsg-kicad-lib:CLA4611_Limiter_Diode")
 		(at 275.59 252.73 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27664,7 +27664,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMP1330"
+		(property "Value" "CLA4611"
 			(at 277.622 254.508 90)
 			(effects
 				(font
@@ -27673,7 +27673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gsg-modules:SMP1330-085LF"
+		(property "Footprint" "gsg-modules:SkyworksLimiterDiode"
 			(at 275.59 252.73 0)
 			(effects
 				(font
@@ -27692,7 +27692,7 @@
 			)
 		)
 		(property "Description" "Limiter Diode"
-			(at 275.59 252.73 90)
+			(at 275.59 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27709,7 +27709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "SMP1330-085LF"
+		(property "Part Number" "CLA4611-085LF"
 			(at 275.59 252.73 90)
 			(effects
 				(font

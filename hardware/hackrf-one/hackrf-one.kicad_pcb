@@ -71491,14 +71491,14 @@
 			(uuid "805704bf-3379-467c-8f2a-e92f7d0d45dc")
 		)
 	)
-	(footprint "gsg-modules:SMP1330-085LF"
+	(footprint "gsg-modules:SkyworksLimiterDiode"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f04e552")
 		(at 58.3702 139.4058 -90)
 		(property "Reference" "D10"
-			(at -0.20066 -1.43002 90)
+			(at 0 1.4605 90)
 			(layer "F.SilkS")
-			(uuid "af01d089-2d84-4793-8deb-f4aa052ce42b")
+			(uuid "ba3d29a7-5b1a-4b70-a7ad-c0890e88a5f1")
 			(effects
 				(font
 					(size 0.50038 0.29972)
@@ -71506,10 +71506,10 @@
 				)
 			)
 		)
-		(property "Value" "SMP1330"
+		(property "Value" "CLA4611"
 			(at 0 -0.889 90)
 			(layer "F.Fab")
-			(uuid "ac909a7d-d3fc-4499-a2be-115c02501c62")
+			(uuid "39c83d73-0a25-49a3-b40c-36b82773c547")
 			(effects
 				(font
 					(size 0.50038 0.29972)
@@ -71517,11 +71517,11 @@
 				)
 			)
 		)
-		(property "Footprint" "gsg-modules:SMP1330-085LF"
+		(property "Footprint" "gsg-modules:SkyworksLimiterDiode"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e95046d-69d0-4b6f-849f-2e7baef67025")
+			(uuid "ceaba813-2eef-4f96-98cf-1ede421a51c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71533,7 +71533,7 @@
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f174f82-2ba1-4f91-bc3a-0f28f19df1d6")
+			(uuid "a69d4841-6bc0-47fe-9760-4402a65c81d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71545,7 +71545,7 @@
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eac33594-4865-4398-b7f8-5877baf1d1f3")
+			(uuid "8dd391d2-5699-4396-b052-e57b0a018974")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71566,7 +71566,7 @@
 				)
 			)
 		)
-		(property "Part Number" "SMP1330-085LF"
+		(property "Part Number" "CLA4611-085LF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71579,7 +71579,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(property ki_fp_filters "PIN_*")
 		(path "/00000000-0000-0000-0000-0000503bb638/00000000-0000-0000-0000-00005f7f1a2a")
 		(sheetname "frontend")
 		(sheetfile "frontend.kicad_sch")
@@ -71593,7 +71593,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ff7b8d98-0b76-4060-9268-d1185927dd36")
+			(uuid "c8188807-ead6-4447-a037-ebb8ea1acf4e")
 		)
 		(fp_line
 			(start 1 1)
@@ -71603,7 +71603,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ade9c4c4-1290-4df8-9387-48071fa6e359")
+			(uuid "583bbd44-851d-4bfb-a982-002eae43875f")
 		)
 		(fp_line
 			(start -1 -1)
@@ -71613,7 +71613,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f06d5de9-c5cf-48ba-95a0-5095e8a009bf")
+			(uuid "52b0e24b-e803-46f0-bbba-5ce18e895833")
 		)
 		(fp_line
 			(start 1 -1)
@@ -71623,7 +71623,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ed409061-ccc2-4d65-a7ee-bd1ac46d4df1")
+			(uuid "e48a8e9c-a739-43ba-9efc-44f7e0740b38")
 		)
 		(pad "1" smd rect
 			(at 0.875 0 270)
@@ -71632,7 +71632,7 @@
 			(net 228 "/frontend/RX_AMP_IN")
 			(pinfunction "A1")
 			(pintype "passive")
-			(uuid "2a26162d-8f90-476c-b385-63fb918ba7d5")
+			(uuid "2504399d-9d04-447e-b465-d04304318501")
 		)
 		(pad "2" smd custom
 			(at 0 -0.1 270)
@@ -71661,7 +71661,7 @@
 					(width 0.05)
 				)
 			)
-			(uuid "e714cdb8-1901-418b-8638-71ffc37f1ef6")
+			(uuid "13bd6630-0a24-4b0f-9cb5-888c441a550a")
 		)
 		(pad "3" smd rect
 			(at -0.875 0 270)
@@ -71670,17 +71670,17 @@
 			(net 271 "Net-(D10-A2)")
 			(pinfunction "A2")
 			(pintype "passive")
-			(uuid "e978022e-d6c8-4f24-b4d0-58eddddf495c")
+			(uuid "b7e94c3f-1a41-4b96-b93a-abe68387a7aa")
 		)
 	)
-	(footprint "gsg-modules:SMP1330-085LF"
+	(footprint "gsg-modules:SkyworksLimiterDiode"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f04e55d")
 		(at 62.3326 145.8066 -90)
 		(property "Reference" "D11"
 			(at 0 1.4605 90)
 			(layer "F.SilkS")
-			(uuid "d42d86e8-2e9d-40ba-830b-463f26f2631a")
+			(uuid "2f394a46-50a7-451a-9e92-ddbe8ef02f84")
 			(effects
 				(font
 					(size 0.50038 0.29972)
@@ -71688,10 +71688,10 @@
 				)
 			)
 		)
-		(property "Value" "SMP1330"
+		(property "Value" "CLA4611"
 			(at 0 -0.889 90)
 			(layer "F.Fab")
-			(uuid "7246c112-c803-491b-b125-69dd8ccd9f1c")
+			(uuid "df752c34-6393-47c7-b06a-654964f982b0")
 			(effects
 				(font
 					(size 0.50038 0.29972)
@@ -71699,11 +71699,11 @@
 				)
 			)
 		)
-		(property "Footprint" "gsg-modules:SMP1330-085LF"
+		(property "Footprint" "gsg-modules:SkyworksLimiterDiode"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2c0d5d4-3841-4c3b-869c-5c5d74df32e0")
+			(uuid "b5841766-2ba0-482b-b72b-c8fe975d13a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71715,7 +71715,7 @@
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "502da1b9-6ffc-4fea-acd6-24436b383d8d")
+			(uuid "4ff7396e-f1c7-4fde-b49c-b561c9a63154")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71727,7 +71727,7 @@
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fe5f763-c101-46ee-999c-f7cc3ece92ab")
+			(uuid "fa20f391-5403-4504-890b-80c4837854d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71748,7 +71748,7 @@
 				)
 			)
 		)
-		(property "Part Number" "SMP1330-085LF"
+		(property "Part Number" "CLA4611-085LF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71761,7 +71761,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(property ki_fp_filters "PIN_*")
 		(path "/00000000-0000-0000-0000-0000503bb638/00000000-0000-0000-0000-00005f68bbcb")
 		(sheetname "frontend")
 		(sheetfile "frontend.kicad_sch")
@@ -71775,7 +71775,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2d542fa5-51e3-4bd4-a157-0e6fe9c55bee")
+			(uuid "4ceef251-bd2d-4128-baf5-b816311a9630")
 		)
 		(fp_line
 			(start 1 1)
@@ -71785,7 +71785,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cfbec4a7-3fbc-494a-87d0-b2bbe5dcc82f")
+			(uuid "b7a1f438-25d6-4bba-91ec-e6730a41363c")
 		)
 		(fp_line
 			(start -1 -1)
@@ -71795,7 +71795,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "03200928-7ae1-4d0c-8c89-297abff85291")
+			(uuid "5fe91bf8-2280-43f0-9b4c-23296d698577")
 		)
 		(fp_line
 			(start 1 -1)
@@ -71805,7 +71805,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "14c1d0b3-3d0c-4fb0-841e-e08daefd54cf")
+			(uuid "37fc8393-f875-44c3-b27b-baa53cab6450")
 		)
 		(pad "1" smd rect
 			(at 0.875 0 270)
@@ -71814,7 +71814,7 @@
 			(net 278 "Net-(D11-A1)")
 			(pinfunction "A1")
 			(pintype "passive")
-			(uuid "b7de7b2d-1f71-401b-9b8b-ddfb87d7620d")
+			(uuid "80ccf17e-03d8-4930-b6c8-d39c0904cf20")
 		)
 		(pad "2" smd custom
 			(at 0 -0.1 270)
@@ -71843,7 +71843,7 @@
 					(width 0.05)
 				)
 			)
-			(uuid "a28600f0-2544-4c43-ab13-8f8e57a5b419")
+			(uuid "29cdc0f1-035a-435d-8bee-c25527969db3")
 		)
 		(pad "3" smd rect
 			(at -0.875 0 270)
@@ -71852,17 +71852,17 @@
 			(net 290 "Net-(D11-A2)")
 			(pinfunction "A2")
 			(pintype "passive")
-			(uuid "6d9e62fe-9bf0-4403-a072-f8dd3763accd")
+			(uuid "f4d08527-b858-45a7-b901-5f20484d7e57")
 		)
 	)
-	(footprint "gsg-modules:SMP1330-085LF"
+	(footprint "gsg-modules:SkyworksLimiterDiode"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005f04e568")
 		(at 61.1896 142.3776 90)
 		(property "Reference" "D12"
-			(at 0 1.4605 90)
+			(at 0 1.4605 -90)
 			(layer "F.SilkS")
-			(uuid "c9ec84a6-2fa6-45a0-9f02-a40c647b2af0")
+			(uuid "283162bf-ee6b-4d24-82a2-613e19bcffb2")
 			(effects
 				(font
 					(size 0.50038 0.29972)
@@ -71870,10 +71870,10 @@
 				)
 			)
 		)
-		(property "Value" "SMP1330"
-			(at 0 -0.889 90)
+		(property "Value" "CLA4611"
+			(at 0 -0.889 -90)
 			(layer "F.Fab")
-			(uuid "01002668-42dd-4f4d-9f03-c9a10c01fb2f")
+			(uuid "5bc5c0ca-42be-4613-86d4-5fbfe664beee")
 			(effects
 				(font
 					(size 0.50038 0.29972)
@@ -71881,11 +71881,11 @@
 				)
 			)
 		)
-		(property "Footprint" "gsg-modules:SMP1330-085LF"
+		(property "Footprint" "gsg-modules:SkyworksLimiterDiode"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5edd62e-1a0e-40ec-92a7-a99cfc6c82d1")
+			(uuid "973cbd67-a719-4119-a5f8-e739755e43bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71897,7 +71897,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a2e9ee6-db03-4479-87e7-555e5b30c19f")
+			(uuid "7168c5cf-6042-42af-8ac9-ee22df89c237")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71909,7 +71909,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "602d2225-4643-4a12-b905-2221da8a3ee8")
+			(uuid "93e9060f-3ef6-4991-a1f2-f7025bbf9d53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71930,7 +71930,7 @@
 				)
 			)
 		)
-		(property "Part Number" "SMP1330-085LF"
+		(property "Part Number" "CLA4611-085LF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71943,7 +71943,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(property ki_fp_filters "PIN_*")
 		(path "/00000000-0000-0000-0000-0000503bb638/00000000-0000-0000-0000-00005f7b89fe")
 		(sheetname "frontend")
 		(sheetfile "frontend.kicad_sch")
@@ -71957,7 +71957,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d55e5b16-7196-44c5-8c2e-c12f807ed074")
+			(uuid "9948198f-2744-419d-a29a-0aa99d87a421")
 		)
 		(fp_line
 			(start -1 -1)
@@ -71967,7 +71967,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "97fc2c13-d6c7-4f0f-b8c9-7c84b6da028a")
+			(uuid "a71da768-0d33-41c8-b265-4ba650133a06")
 		)
 		(fp_line
 			(start 1 1)
@@ -71977,7 +71977,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3d7f89fd-08dc-42d0-8dac-50a02216166f")
+			(uuid "fa3eff9c-9898-43d6-8b8a-6fa13dac765d")
 		)
 		(fp_line
 			(start -1 1)
@@ -71987,7 +71987,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b5fa68f1-1b7b-433e-8e89-b84a1245f8ae")
+			(uuid "a0f5c7db-6ba1-4d68-b6e1-cb4a3c35cdd8")
 		)
 		(pad "1" smd rect
 			(at 0.875 0 90)
@@ -71996,7 +71996,7 @@
 			(net 190 "GND")
 			(pinfunction "A1")
 			(pintype "passive")
-			(uuid "628364b1-8154-4b26-93fd-05343ff78096")
+			(uuid "a93ba518-392c-4808-a5f8-27aac47b0182")
 		)
 		(pad "2" smd custom
 			(at 0 -0.1 90)
@@ -72025,7 +72025,7 @@
 					(width 0.05)
 				)
 			)
-			(uuid "23921771-dcdc-4672-a5ed-7be88865ed1f")
+			(uuid "4fdf89fa-2b5f-407f-a3a3-4aa27d74daa6")
 		)
 		(pad "3" smd rect
 			(at -0.875 0 90)
@@ -72034,7 +72034,7 @@
 			(net 190 "GND")
 			(pinfunction "A2")
 			(pintype "passive")
-			(uuid "ae200cda-6537-4132-9dbd-9554f0924c1d")
+			(uuid "1ad16cfe-909a-4d9a-a84a-449321689f45")
 		)
 	)
 	(footprint "gsg-modules:GSG-MARK1MM"
