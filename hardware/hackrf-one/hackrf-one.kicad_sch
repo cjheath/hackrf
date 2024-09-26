@@ -11,26 +11,6 @@
 		(comment 1 "License: GPL v2")
 	)
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 78.232 64.135) (xy 78.74 64.135)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d670cc0-e4a3-49da-89e1-4e57080b6e13")
-	)
-	(wire
-		(pts
-			(xy 78.74 64.135) (xy 78.74 62.103)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d836849f-a62e-4013-8d35-59d85afa20bc")
-	)
 	(sheet
 		(at 64.77 60.96)
 		(size 26.67 3.81)
