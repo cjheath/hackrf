@@ -16051,7 +16051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-SMA-73251-2120"
+		(property "Footprint" "gsg-modules:SMA-73251-2120"
 			(at 76.2 224.79 0)
 			(effects
 				(font
@@ -23743,7 +23743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-SMA-73251-2120"
+		(property "Footprint" "gsg-modules:SMA-73251-2120"
 			(at 154.94 243.84 0)
 			(effects
 				(font

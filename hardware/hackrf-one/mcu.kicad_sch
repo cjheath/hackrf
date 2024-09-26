@@ -17688,7 +17688,7 @@
 		)
 		(uuid "0cc0de30-5e0e-4be8-85d7-40979cea289a")
 	)
-	(label "REG_OUT2"
+	(label "+1.8V"
 		(at 373.38 17.78 0)
 		(fields_autoplaced yes)
 		(effects
