@@ -9350,6 +9350,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 391.16 99.06)
@@ -10750,6 +10846,16 @@
 			(type default)
 		)
 		(uuid "1db57b40-d408-4068-8935-8e3e85ee9322")
+	)
+	(wire
+		(pts
+			(xy 139.7 34.29) (xy 139.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb4016b-e48f-43ff-92ad-c4e1876f44a9")
 	)
 	(wire
 		(pts
@@ -15123,6 +15229,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 34.29) (xy 137.16 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca08514-584b-4782-938e-5b6c4d836078")
+	)
+	(wire
+		(pts
 			(xy 393.7 17.78) (xy 393.7 20.32)
 		)
 		(stroke
@@ -17268,6 +17384,17 @@
 		)
 		(uuid "20680f17-a9a1-40e9-a33c-222200fe25ea")
 	)
+	(label "VIN"
+		(at 139.7 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "207f8470-7159-42e3-aa0f-da64ec8c5c2a")
+	)
 	(label "GPIO3_11"
 		(at 201.93 44.45 270)
 		(fields_autoplaced yes)
@@ -18378,6 +18505,17 @@
 			(justify left bottom)
 		)
 		(uuid "7f807fa9-d74a-44d0-881b-201211500da2")
+	)
+	(label "VBAT"
+		(at 137.16 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fd4fc31-64fb-4233-b562-fa1905e28073")
 	)
 	(label "BANK2F3M16"
 		(at 298.45 264.16 180)
@@ -21493,6 +21631,14 @@
 		(pin "99"
 			(uuid "987b9bbe-48b4-4cef-bc54-b2c9cd05c595")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -24148,6 +24294,14 @@
 		(pin "5"
 			(uuid "ce22a3cd-2414-4f5b-b04b-2c9f044182b9")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:FILTER-hackrf")
@@ -24607,6 +24761,14 @@
 		)
 		(pin "99"
 			(uuid "1599308c-fc54-431b-a14e-7108d8f6c58f")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "U24")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25188,6 +25350,14 @@
 		)
 		(pin "9"
 			(uuid "76579d13-fc6d-41ce-90ad-d0e846f43f29")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "U21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -27019,6 +27189,14 @@
 		(pin "8"
 			(uuid "7631d249-4cc1-463c-9bb0-d0484c2394c0")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -27930,6 +28108,14 @@
 		(pin "9"
 			(uuid "e794f3e6-8341-43ad-866f-902ec7a948b8")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "P28")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -28201,6 +28387,14 @@
 		)
 		(pin "9"
 			(uuid "efab3c83-a4f2-464d-aa30-7595fabcbbcb")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "P20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -29479,6 +29673,14 @@
 		)
 		(pin "4"
 			(uuid "7978598d-8067-4b57-9ab3-a5711685a25e")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "X2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -36239,6 +36441,14 @@
 		(pin "0"
 			(uuid "a110c1de-7e91-4c9c-9440-5dfea04fd1f9")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:SW_PUSH_SHIELDED-hackrf")
@@ -36318,6 +36528,14 @@
 		)
 		(pin "0"
 			(uuid "e0587555-256a-4211-9ce4-4cfca5ca4329")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -41309,6 +41527,669 @@
 			(project ""
 				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
 					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.73 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "019eedba-333a-468a-982f-96623635d651")
+		(property "Reference" "#FLG02"
+			(at 125.73 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7e29dcd-b033-4ad2-a74d-05064388ffc2")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 137.16 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09dfe12c-05b7-4a29-9be8-e84655b69aa7")
+		(property "Reference" "#FLG05"
+			(at 137.16 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc34e043-27a9-4789-b72c-c7d23bf77ba2")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 133.35 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "541b85a2-cb83-4993-9cb2-b70ef578efa8")
+		(property "Reference" "#FLG04"
+			(at 133.35 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55fe334e-5bf9-4940-b51a-80b9f0adb046")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hackrf-one:1V8-hackrf")
+		(at 133.35 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "609fc853-7908-41b6-84ec-61b73f680761")
+		(property "Reference" "#PWR07"
+			(at 133.35 32.004 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.8V"
+			(at 133.35 32.766 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0436e60-eb0e-4d75-80a4-357342b31cc9")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hackrf-one:VAA-power")
+		(at 129.54 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90f2a5fe-064b-4a58-bbe4-eafd4f04cb9d")
+		(property "Reference" "#PWR06"
+			(at 129.54 34.036 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VAA"
+			(at 129.54 32.766 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b54de3b7-e018-4e93-8e12-f89a3d7b4c5d")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hackrf-one:GND-power")
+		(at 121.92 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a2091ae-5823-488c-a8fb-0be8193160d0")
+		(property "Reference" "#PWR03"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 37.338 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb7062e6-f765-4fb9-b932-8742b44f9522")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hackrf-one:VCC-power")
+		(at 125.73 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0095194-b5e2-4e45-b2d6-52e2f091d3c4")
+		(property "Reference" "#PWR04"
+			(at 125.73 33.02 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 125.73 33.02 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d393a18-3d13-449c-b452-ff9b2ca610ff")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 139.7 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b332321d-f703-4476-b53c-557aaf0841e5")
+		(property "Reference" "#FLG06"
+			(at 139.7 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70daa20e-387e-478c-8fab-ce18b6510e91")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 121.92 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e8ad87-f41b-4e53-8bfd-f85a0b4e0158")
+		(property "Reference" "#FLG01"
+			(at 121.92 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 121.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1378c77-3d7f-4fd4-b520-dc2f6e5f123b")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9ecde63-a666-45e2-b253-3542f67644cc")
+		(property "Reference" "#FLG03"
+			(at 129.54 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88115130-0220-48ea-a85f-b382c3ce964c")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

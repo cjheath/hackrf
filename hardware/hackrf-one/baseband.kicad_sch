@@ -12059,6 +12059,14 @@
 		(pin "9"
 			(uuid "7251e85b-c298-4087-aff8-ca9f1a4564b1")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -12269,6 +12277,14 @@
 		)
 		(pin "2"
 			(uuid "2401c18f-4e29-4a81-b933-8410312d7388")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C84")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12702,6 +12718,14 @@
 		(pin "2"
 			(uuid "8388278a-cca3-44b2-b014-2200a7305359")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -12779,6 +12803,14 @@
 		(pin "2"
 			(uuid "2a61cddd-32a4-4d1f-8390-9a41c73fc244")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -12855,6 +12887,14 @@
 		)
 		(pin "2"
 			(uuid "1aea4820-18af-44d6-8b58-d8fe2993161b")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12934,6 +12974,14 @@
 		)
 		(pin "2"
 			(uuid "fb81a2b0-b419-408d-a319-a6e9c5f34403")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13143,6 +13191,14 @@
 		)
 		(pin "2"
 			(uuid "8ca8c1fa-10a1-4fa4-8dd3-ef70e631938a")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13487,6 +13543,14 @@
 		(pin "1"
 			(uuid "e5457283-c239-460f-a52b-fedb8582db9e")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -13565,6 +13629,14 @@
 		)
 		(pin "2"
 			(uuid "7be9f3b1-3de2-43af-aad8-8f83ac453df4")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C97")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13842,6 +13914,14 @@
 		)
 		(pin "2"
 			(uuid "f9c55c5a-bad8-467d-a24a-76e1d0d6521e")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C72")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14384,6 +14464,14 @@
 		(pin "2"
 			(uuid "3eca6b39-c4f2-4e01-bfa6-00fcd3bee7f4")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -14463,6 +14551,14 @@
 		(pin "1"
 			(uuid "81b43606-b2dc-433d-868f-443d6ee64894")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -14541,6 +14637,14 @@
 		)
 		(pin "2"
 			(uuid "cbc7bb96-9991-4231-b235-5ffbf014ddf2")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C104")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14636,6 +14740,14 @@
 		)
 		(pin "1"
 			(uuid "2e4676d7-fcb3-4b62-999f-e4aa6b27b004")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "T3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14863,6 +14975,14 @@
 		)
 		(pin "5"
 			(uuid "81ef0a05-2c45-47c3-972c-2529263d6bde")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "T4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15328,6 +15448,14 @@
 		(pin "9"
 			(uuid "4193ee46-a1cd-4273-a515-34cc4cf44ea1")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -15404,6 +15532,14 @@
 		)
 		(pin "2"
 			(uuid "873d2360-d331-4658-92ed-9dd5cc060dea")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15749,6 +15885,14 @@
 		(pin "4"
 			(uuid "5e67d46e-1bcc-4b34-9752-b4da2c365995")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -15958,6 +16102,14 @@
 		(pin "2"
 			(uuid "b8e16e97-c656-4ba4-872a-56fed9fad295")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "P16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -16166,6 +16318,14 @@
 		)
 		(pin "2"
 			(uuid "ad7e47eb-34a6-446c-b66f-cc41bed3ce88")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17116,6 +17276,14 @@
 		(pin "2"
 			(uuid "49c9ca07-c6ad-4419-8cfa-59886940b107")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17194,6 +17362,14 @@
 		)
 		(pin "2"
 			(uuid "a6b37dee-4473-4248-9833-75255a87ba78")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C119")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17274,6 +17450,14 @@
 		(pin "2"
 			(uuid "27d4fa17-2a30-43b6-b78b-08dfa7758f45")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C120")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17352,6 +17536,14 @@
 		)
 		(pin "2"
 			(uuid "e6be86bd-730d-4fac-b0f1-8a75bfb09258")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C121")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17432,6 +17624,14 @@
 		(pin "2"
 			(uuid "ba37f779-087a-44b8-90ff-7fd24b0a4708")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17510,6 +17710,14 @@
 		)
 		(pin "2"
 			(uuid "bd8b904f-7ea6-4a3f-a67f-091e2ff1411e")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C123")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17590,6 +17798,14 @@
 		(pin "2"
 			(uuid "e8f9b870-3169-4369-88f9-dcfc2d6a8472")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17668,6 +17884,14 @@
 		)
 		(pin "2"
 			(uuid "583fe55a-0c1b-4e83-a230-beba3f52187e")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C73")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17748,6 +17972,14 @@
 		(pin "1"
 			(uuid "ff06c0a5-0f1e-462c-8050-dbde5c0fa492")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17826,6 +18058,14 @@
 		)
 		(pin "2"
 			(uuid "88570102-51c5-4b3e-b9cc-b7691a1c06d1")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C77")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17906,6 +18146,14 @@
 		(pin "2"
 			(uuid "ab04c2c8-2e40-4005-aeb4-0240677ef6c5")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17984,6 +18232,14 @@
 		)
 		(pin "2"
 			(uuid "1c8ab0f1-6866-4ab2-b567-c8160ae08e16")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C81")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18064,6 +18320,14 @@
 		(pin "2"
 			(uuid "51e0f28b-5afe-4ca2-99b6-a5b828feedf7")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -18142,6 +18406,14 @@
 		)
 		(pin "2"
 			(uuid "b0784f2d-2edb-4631-91d8-6f3317f1c7eb")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C87")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18222,6 +18494,14 @@
 		(pin "2"
 			(uuid "fd341388-f5ed-4387-9d52-6344b53c4c05")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -18300,6 +18580,14 @@
 		)
 		(pin "2"
 			(uuid "2a2e27d5-773b-417b-903f-7893093ab8b4")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C89")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18380,6 +18668,14 @@
 		(pin "2"
 			(uuid "507262b8-d490-4409-8ba5-3ebbd8c2d962")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -18459,6 +18755,14 @@
 		(pin "2"
 			(uuid "adf28aac-2c12-4609-9c2d-2e1e92ef169f")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -18537,6 +18841,14 @@
 		(pin "2"
 			(uuid "a9c5b379-baff-4a0f-b6c8-61a46c27783c")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -18614,6 +18926,14 @@
 		(pin "2"
 			(uuid "a1ce31b5-c63f-467b-9b6b-e869727443e8")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -18690,6 +19010,14 @@
 		)
 		(pin "2"
 			(uuid "05380804-64b5-4a57-b598-4357f22761eb")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R104")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18770,6 +19098,14 @@
 		(pin "2"
 			(uuid "00bb695a-2c57-4430-b16d-57fbe4d5647b")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -18846,6 +19182,14 @@
 		)
 		(pin "2"
 			(uuid "ce66b80d-7792-465d-833e-6a316cb9a926")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18924,6 +19268,14 @@
 		(pin "2"
 			(uuid "30bb1e54-4552-4ffb-92d4-a496dfe68f7e")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -19001,6 +19353,14 @@
 		(pin "1"
 			(uuid "4e56f2fe-9476-41ab-bff4-234432a4fd3f")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -19077,6 +19437,14 @@
 		)
 		(pin "2"
 			(uuid "17eab92c-cf8a-445d-9e64-b7d4db6af7ce")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19156,6 +19524,14 @@
 		)
 		(pin "2"
 			(uuid "37a6007c-0abb-42aa-9624-a59d87128733")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C112")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19325,6 +19701,14 @@
 		(pin "2"
 			(uuid "b749810f-9516-4d8e-ae06-c506e7f7e52d")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -19403,6 +19787,14 @@
 		)
 		(pin "2"
 			(uuid "d6cbad31-34de-4a25-9831-67ffc5b5256c")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C74")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19483,6 +19875,14 @@
 		(pin "2"
 			(uuid "92d19990-d8ad-497a-88f2-691449d7ffcf")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -19561,6 +19961,14 @@
 		)
 		(pin "2"
 			(uuid "98e47775-324e-48e5-b010-5d4968a33742")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C78")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19641,6 +20049,14 @@
 		(pin "2"
 			(uuid "bfe2c651-3d2e-436d-9c57-72af44bf8373")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -19719,6 +20135,14 @@
 		)
 		(pin "2"
 			(uuid "825eca21-45b5-412b-8a0c-78687acf64fa")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C82")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19799,6 +20223,14 @@
 		(pin "2"
 			(uuid "cd620ef2-e41b-4416-9710-3536cd0022dc")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -19877,6 +20309,14 @@
 		)
 		(pin "2"
 			(uuid "9bfcd96d-6e23-41c7-a289-fa12d0acb49b")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C85")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19957,6 +20397,14 @@
 		(pin "2"
 			(uuid "1e0f4f79-2b9e-40f2-87ce-b785705aff48")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20035,6 +20483,14 @@
 		)
 		(pin "2"
 			(uuid "c6c29705-6966-4d92-bdc3-fbcc8ec1d1b6")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C94")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20123,6 +20579,14 @@
 		(pin "2"
 			(uuid "03f07951-097e-4ed3-9cd3-64e030286e12")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20209,6 +20673,14 @@
 		)
 		(pin "2"
 			(uuid "e06a29f1-7c4c-4ed6-a2f7-9f12de5ccf08")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C96")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20297,6 +20769,14 @@
 		(pin "2"
 			(uuid "e611c4d4-5b61-4aec-84a6-351a9454a497")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20383,6 +20863,14 @@
 		)
 		(pin "2"
 			(uuid "7fd7d475-03ee-40c2-b589-a41ab7b146c7")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20471,6 +20959,14 @@
 		(pin "2"
 			(uuid "84a674af-b115-4628-bf78-7436d4b07562")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20557,6 +21053,14 @@
 		)
 		(pin "2"
 			(uuid "8b45bddc-137a-4ca5-8bcd-7f8f40d32509")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C108")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20645,6 +21149,14 @@
 		(pin "2"
 			(uuid "2ac85bde-8e58-4709-93bd-2a8d635ca883")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20732,6 +21244,14 @@
 		(pin "2"
 			(uuid "4a5f98d9-f3c0-4e11-aa48-a31cf6ca0ea2")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C110")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20810,6 +21330,14 @@
 		)
 		(pin "1"
 			(uuid "6f968c22-1c60-4bb1-9b5c-62074ed37f1a")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C99")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20890,6 +21418,14 @@
 		(pin "2"
 			(uuid "052cfe80-d675-47db-8b42-a77e5178c816")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20969,6 +21505,14 @@
 		(pin "1"
 			(uuid "ffb11210-af10-4fd7-af9a-fb76f5a0084d")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -21045,6 +21589,14 @@
 		)
 		(pin "2"
 			(uuid "caeb56a4-32d0-46fa-a74c-d807ce040457")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21123,6 +21675,14 @@
 		(pin "2"
 			(uuid "46b2b427-b511-4d20-b85e-395dde1cb476")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -21199,6 +21759,14 @@
 		)
 		(pin "2"
 			(uuid "45567c89-99f7-4f55-b21b-aecb013acd87")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21277,6 +21845,14 @@
 		(pin "2"
 			(uuid "b72838b7-9191-478d-aea3-11c729a28193")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -21354,6 +21930,14 @@
 		(pin "2"
 			(uuid "ebe41327-e351-4d03-a56f-73c06b48590a")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -21430,6 +22014,14 @@
 		)
 		(pin "2"
 			(uuid "3c24bdef-7f61-46a8-861d-ca0074268401")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23202,6 +23794,14 @@
 		(pin "2"
 			(uuid "59db7a94-8684-4e06-9b86-d914fe2cb039")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:CONN_2-hackrf")
@@ -23753,6 +24353,14 @@
 		(pin "2"
 			(uuid "9798cf41-f2fc-4544-b020-7fbd8b776adb")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -23896,6 +24504,14 @@
 		(pin "2"
 			(uuid "b929dc59-2c55-4079-a30a-786a8153023a")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -23972,6 +24588,14 @@
 		)
 		(pin "2"
 			(uuid "1a4edf46-e222-4139-b6e3-31699dd7ee9c")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R94")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24469,6 +25093,14 @@
 		(pin "2"
 			(uuid "5bea449a-3d46-47f2-ac07-4666ee7d500d")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -24556,6 +25188,14 @@
 		(pin "2"
 			(uuid "cfe545c5-397e-4d4a-a7be-c3c7e1f39878")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -24642,6 +25282,14 @@
 		)
 		(pin "2"
 			(uuid "7ebac929-77e0-4d83-ae42-9c8f15a22457")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C69")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24858,6 +25506,14 @@
 		(pin "2"
 			(uuid "a1288e12-0339-4298-9333-e4328f8d1f7b")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C159")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -24999,6 +25655,14 @@
 		(pin "2"
 			(uuid "2c13a660-9a93-42bb-9818-88e28e8305f4")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -25085,6 +25749,14 @@
 		)
 		(pin "2"
 			(uuid "6642f297-3376-4337-b40b-f806b9fbb738")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C165")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -26479,6 +27151,14 @@
 		)
 		(pin "1"
 			(uuid "8d516ec4-48ef-46c4-bd26-55d7697f9e57")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C167")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -28051,6 +28731,14 @@
 		(pin "2"
 			(uuid "e99b8550-bbb5-45c5-9a7b-c740ab724a0b")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -28127,6 +28815,14 @@
 		)
 		(pin "2"
 			(uuid "cf5e7fe0-2d70-4aa8-830a-0b75b73da4c4")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -28207,6 +28903,14 @@
 		(pin "2"
 			(uuid "8f043d9f-8ca2-4c7e-881e-ed267f1c9d88")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -28285,6 +28989,14 @@
 		)
 		(pin "2"
 			(uuid "bd73e205-bfd3-4c13-8c5a-7bf97965aa58")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C116")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -28631,6 +29343,14 @@
 		(pin "2"
 			(uuid "ec1fb90f-5a7f-4a8b-9526-15edceb692be")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C168")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
@@ -28774,6 +29494,14 @@
 		(pin "2"
 			(uuid "25577e00-60ed-4bb1-9f63-c1f8b2f7eb7d")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C169")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -28851,6 +29579,14 @@
 		)
 		(pin "2"
 			(uuid "2d963c11-2a86-45f5-9711-86ba13286933")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "C170")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -29045,6 +29781,14 @@
 		(pin "3"
 			(uuid "d08d2695-b899-4c3e-88e6-797ba16180b2")
 		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "hackrf-one:BAS70-04-hackrf")
@@ -29108,6 +29852,14 @@
 		)
 		(pin "3"
 			(uuid "29a6ef0d-bdc1-4f43-89af-d1fe2d1df75d")
+		)
+		(instances
+			(project "hackrf-one"
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-000050370666"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
