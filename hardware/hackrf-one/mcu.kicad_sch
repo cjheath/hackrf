@@ -10958,6 +10958,10 @@
 		(uuid "94500119-5545-4852-99bf-3a798ed59cd7")
 	)
 	(no_connect
+		(at 109.22 129.54)
+		(uuid "b39de715-96c6-44b8-9afe-884b3984817d")
+	)
+	(no_connect
 		(at 246.38 124.46)
 		(uuid "bbf1381a-aa63-4648-9c63-f02c961eb7d3")
 	)
@@ -13604,16 +13608,6 @@
 			(type default)
 		)
 		(uuid "601c9980-805a-4edc-a7d5-88927d2dccb1")
-	)
-	(wire
-		(pts
-			(xy 105.41 129.54) (xy 109.22 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60812880-e1d7-4c85-bd61-12d75f809308")
 	)
 	(wire
 		(pts
@@ -42310,72 +42304,6 @@
 			(project "hackrf-one"
 				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hackrf-one:GND-power")
-		(at 105.41 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ec390fa-da36-41c1-a38e-24d3a05c145c")
-		(property "Reference" "#PWR013"
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 103.632 129.54 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f416ab55-2201-4835-9718-fd48a5f8bdf2")
-		)
-		(instances
-			(project "hackrf-one"
-				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
