@@ -148,6 +148,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3480,10 +3625,10 @@
 		(uuid "0066a855-ff0b-44fb-9f1e-46759cf0efdb")
 	)
 	(junction
-		(at 402.59 204.47)
+		(at 394.97 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d38049e-f0ac-4936-827f-8867951176a0")
+		(uuid "040f40ff-5584-4749-84ed-c7ea205c907a")
 	)
 	(junction
 		(at 153.67 212.09)
@@ -3576,7 +3721,7 @@
 		(uuid "329859f9-5e09-49cb-a53d-bdf23e6e4890")
 	)
 	(junction
-		(at 394.97 185.42)
+		(at 394.97 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33e6ae2a-8792-49c6-b3e3-33eb1b5032a5")
@@ -3660,7 +3805,7 @@
 		(uuid "6328fa76-622b-40a2-945d-d4b50f33941b")
 	)
 	(junction
-		(at 402.59 185.42)
+		(at 402.59 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "651b12b8-e943-4728-9628-d2756390451b")
@@ -3718,6 +3863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85e3e3f7-4fa0-4cb1-ad19-d1bb9bce6a7b")
+	)
+	(junction
+		(at 402.59 210.566)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86e37428-593f-4335-aad3-619e213f55c5")
 	)
 	(junction
 		(at 129.54 44.45)
@@ -3784,12 +3935,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2fc98fe-2002-4db8-9e5d-5e1d874b10c9")
-	)
-	(junction
-		(at 394.97 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8e3867f-f8fe-4433-8c3a-6b17e6169dc7")
 	)
 	(junction
 		(at 153.67 204.47)
@@ -4071,7 +4216,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 185.42) (xy 402.59 190.5)
+			(xy 402.59 193.04) (xy 402.59 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4171,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 185.42) (xy 394.97 185.42)
+			(xy 402.59 193.04) (xy 394.97 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4378,16 +4523,6 @@
 			(type default)
 		)
 		(uuid "1d8d5b80-2938-45c5-835a-77f2fb7ddc3f")
-	)
-	(wire
-		(pts
-			(xy 402.59 204.47) (xy 402.59 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db90f24-2406-4ffa-afd8-c805ffbfcab5")
 	)
 	(wire
 		(pts
@@ -4788,16 +4923,6 @@
 			(type default)
 		)
 		(uuid "36304f90-dd7e-4b45-9952-b42ee60cf51c")
-	)
-	(wire
-		(pts
-			(xy 394.97 165.1) (xy 394.97 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36b6a288-9728-46b4-959e-be3ecddb5262")
 	)
 	(wire
 		(pts
@@ -5521,7 +5646,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 195.58) (xy 411.48 196.85)
+			(xy 411.48 203.2) (xy 411.48 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5591,7 +5716,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 198.12) (xy 402.59 204.47)
+			(xy 402.59 205.74) (xy 402.59 210.566)
 		)
 		(stroke
 			(width 0)
@@ -5901,7 +6026,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 185.42) (xy 402.59 185.42)
+			(xy 403.86 193.04) (xy 402.59 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6081,7 +6206,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 185.42) (xy 411.48 187.96)
+			(xy 411.48 193.04) (xy 411.48 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6231,7 +6356,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 204.47) (xy 394.97 204.47)
+			(xy 402.59 210.566) (xy 394.97 210.566)
 		)
 		(stroke
 			(width 0)
@@ -6251,7 +6376,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 185.42) (xy 394.97 186.69)
+			(xy 394.97 193.04) (xy 394.97 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6841,7 +6966,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 172.72) (xy 402.59 168.91)
+			(xy 402.59 180.34) (xy 402.59 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6901,7 +7026,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 180.34) (xy 402.59 185.42)
+			(xy 402.59 187.96) (xy 402.59 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7081,7 +7206,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 184.15) (xy 394.97 185.42)
+			(xy 394.97 191.77) (xy 394.97 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7241,7 +7366,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 201.93) (xy 394.97 204.47)
+			(xy 394.97 209.55) (xy 394.97 210.566)
 		)
 		(stroke
 			(width 0)
@@ -7721,6 +7846,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 174.752) (xy 394.97 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1424ec4-5119-43bd-bb2c-24a208e9e65a")
+	)
+	(wire
+		(pts
 			(xy 104.14 105.41) (xy 99.06 105.41)
 		)
 		(stroke
@@ -7798,6 +7933,16 @@
 			(type default)
 		)
 		(uuid "e59fc6af-7286-462a-8f6b-c79518b8073e")
+	)
+	(wire
+		(pts
+			(xy 394.97 165.1) (xy 394.97 167.132)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ebd89b-7e44-4d86-84dc-f41b022e68ce")
 	)
 	(wire
 		(pts
@@ -7918,6 +8063,16 @@
 			(type default)
 		)
 		(uuid "ed58bef5-550f-49a2-847b-d261c4855109")
+	)
+	(wire
+		(pts
+			(xy 402.59 210.566) (xy 402.59 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed979f7b-1d0c-4235-9d8a-e0cc527006e4")
 	)
 	(wire
 		(pts
@@ -8101,7 +8256,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 168.91) (xy 394.97 168.91)
+			(xy 402.59 176.53) (xy 394.97 176.53)
 		)
 		(stroke
 			(width 0)
@@ -25276,7 +25431,7 @@
 	)
 	(symbol
 		(lib_id "hackrf-one:INDUCTOR-hackrf")
-		(at 394.97 194.31 0)
+		(at 394.97 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25284,7 +25439,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052ea1189")
 		(property "Reference" "L13"
-			(at 393.7 194.31 90)
+			(at 393.7 201.93 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -25292,7 +25447,7 @@
 			)
 		)
 		(property "Value" "0.56uH"
-			(at 397.51 194.31 90)
+			(at 397.51 201.93 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -25300,7 +25455,7 @@
 			)
 		)
 		(property "Footprint" "hackrf:GSG-0603"
-			(at 394.97 194.31 0)
+			(at 394.97 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25309,7 +25464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 194.31 0)
+			(at 394.97 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25318,7 +25473,7 @@
 			)
 		)
 		(property "Description" "INDUCTOR 560nH ±5% 70mA 8.1Ω 0603"
-			(at 394.97 194.31 0)
+			(at 394.97 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25327,7 +25482,7 @@
 			)
 		)
 		(property "Manufacturer" "Sunlord"
-			(at 394.97 194.31 0)
+			(at 394.97 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25336,7 +25491,7 @@
 			)
 		)
 		(property "Part Number" "SDWL1608CR56JSTF"
-			(at 394.97 194.31 0)
+			(at 394.97 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25896,7 +26051,7 @@
 	)
 	(symbol
 		(lib_id "hackrf-one:INDUCTOR-hackrf")
-		(at 394.97 176.53 0)
+		(at 394.97 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25904,7 +26059,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f078049")
 		(property "Reference" "L?"
-			(at 393.7 176.53 90)
+			(at 393.7 184.15 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -25912,7 +26067,7 @@
 			)
 		)
 		(property "Value" "3.3uH"
-			(at 397.51 176.53 90)
+			(at 397.51 184.15 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -25920,7 +26075,7 @@
 			)
 		)
 		(property "Footprint" "hackrf:GSG-0603"
-			(at 394.97 176.53 0)
+			(at 394.97 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25929,7 +26084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 394.97 176.53 0)
+			(at 394.97 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25938,7 +26093,7 @@
 			)
 		)
 		(property "Description" "INDUCTR 3.3UH 290MA 20% 0603 SMD"
-			(at 394.97 176.53 0)
+			(at 394.97 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25947,7 +26102,7 @@
 			)
 		)
 		(property "Manufacturer" "Taiyo Yuden"
-			(at 394.97 176.53 0)
+			(at 394.97 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25956,7 +26111,7 @@
 			)
 		)
 		(property "Part Number" "BRL1608T3R3M"
-			(at 394.97 176.53 0)
+			(at 394.97 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25985,7 +26140,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 411.48 191.77 180)
+		(at 411.48 199.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25993,7 +26148,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f11f04e")
 		(property "Reference" "C173"
-			(at 410.21 194.31 0)
+			(at 410.21 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26002,7 +26157,7 @@
 			)
 		)
 		(property "Value" "1pF"
-			(at 410.21 189.23 0)
+			(at 410.21 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26011,7 +26166,7 @@
 			)
 		)
 		(property "Footprint" "hackrf:GSG-0402"
-			(at 411.48 191.77 0)
+			(at 411.48 199.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26020,7 +26175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 411.48 191.77 0)
+			(at 411.48 199.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26029,7 +26184,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1PF 50V 5% NP0 0402"
-			(at 123.19 248.92 0)
+			(at 123.19 256.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26038,7 +26193,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 123.19 248.92 0)
+			(at 123.19 256.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26047,7 +26202,7 @@
 			)
 		)
 		(property "Part Number" "GJM1555C1H1R0JB01"
-			(at 123.19 248.92 0)
+			(at 123.19 256.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26072,7 +26227,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 407.67 185.42 90)
+		(at 407.67 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26080,7 +26235,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f121759")
 		(property "Reference" "R44"
-			(at 407.67 183.388 90)
+			(at 407.67 191.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26088,7 +26243,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 407.67 185.42 90)
+			(at 407.67 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26096,7 +26251,7 @@
 			)
 		)
 		(property "Footprint" "hackrf:GSG-0402"
-			(at 407.67 185.42 0)
+			(at 407.67 193.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26105,7 +26260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 185.42 0)
+			(at 407.67 193.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26114,7 +26269,7 @@
 			)
 		)
 		(property "Description" "RES 1.5K OHM 1/10W 5% 0402 SMD"
-			(at 407.67 185.42 0)
+			(at 407.67 193.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26123,7 +26278,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 407.67 185.42 0)
+			(at 407.67 193.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26132,7 +26287,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-2GEJ152X"
-			(at 407.67 185.42 0)
+			(at 407.67 193.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26157,7 +26312,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 402.59 176.53 0)
+		(at 402.59 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26165,7 +26320,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1228ca")
 		(property "Reference" "R42"
-			(at 404.622 176.53 90)
+			(at 404.622 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26173,7 +26328,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 402.59 176.53 90)
+			(at 402.59 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26181,7 +26336,7 @@
 			)
 		)
 		(property "Footprint" "hackrf:GSG-0402"
-			(at 402.59 176.53 0)
+			(at 402.59 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26190,7 +26345,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 402.59 176.53 0)
+			(at 402.59 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26199,7 +26354,7 @@
 			)
 		)
 		(property "Description" "RES 1.5K OHM 1/10W 5% 0402 SMD"
-			(at 402.59 176.53 0)
+			(at 402.59 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26208,7 +26363,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 402.59 176.53 0)
+			(at 402.59 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26217,7 +26372,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-2GEJ152X"
-			(at 402.59 176.53 0)
+			(at 402.59 184.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26242,7 +26397,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 402.59 194.31 0)
+		(at 402.59 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26250,7 +26405,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f123afb")
 		(property "Reference" "R43"
-			(at 404.622 194.31 90)
+			(at 404.622 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26258,7 +26413,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 402.59 194.31 90)
+			(at 402.59 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26266,7 +26421,7 @@
 			)
 		)
 		(property "Footprint" "hackrf:GSG-0402"
-			(at 402.59 194.31 0)
+			(at 402.59 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26275,7 +26430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 402.59 194.31 0)
+			(at 402.59 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26284,7 +26439,7 @@
 			)
 		)
 		(property "Description" "RES 1.5K OHM 1/10W 5% 0402 SMD"
-			(at 402.59 194.31 0)
+			(at 402.59 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26293,7 +26448,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 402.59 194.31 0)
+			(at 402.59 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26302,7 +26457,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-2GEJ152X"
-			(at 402.59 194.31 0)
+			(at 402.59 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26327,7 +26482,7 @@
 	)
 	(symbol
 		(lib_id "hackrf-one:GND-power")
-		(at 411.48 196.85 0)
+		(at 411.48 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26335,7 +26490,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f15af46")
 		(property "Reference" "#PWR0310"
-			(at 411.48 196.85 0)
+			(at 411.48 204.47 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -26344,7 +26499,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 411.48 198.628 0)
+			(at 411.48 206.248 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -26353,7 +26508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 411.48 196.85 0)
+			(at 411.48 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26362,7 +26517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 411.48 196.85 0)
+			(at 411.48 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26371,7 +26526,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 411.48 196.85 0)
+			(at 411.48 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27655,7 +27810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7f1a2a")
-		(property "Reference" "D10"
+		(property "Reference" "D13"
 			(at 277.622 252.1966 90)
 			(effects
 				(font
@@ -27730,7 +27885,7 @@
 		(instances
 			(project "hackrf-one"
 				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-0000503bb638"
-					(reference "D10")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -28545,6 +28700,94 @@
 			(project "hackrf-one"
 				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-0000503bb638"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 394.97 170.942 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43682c4d-b353-4408-b145-20f148efb577")
+		(property "Reference" "D10"
+			(at 397.256 169.9894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 397.256 172.5294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "gsg-modules:DSN1006-2"
+			(at 394.97 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 1A DSN1006-2"
+			(at 394.97 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 394.97 170.942 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PMEG4010ESBYL"
+			(at 394.97 170.942 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b4ec474-5993-43f5-ba1a-84f299d22e21")
+		)
+		(pin "1"
+			(uuid "0ff88551-a717-4201-92aa-fec62000dfbf")
+		)
+		(instances
+			(project ""
+				(path "/00e5afbc-cf8c-40e8-b378-e4fd9cf88403/00000000-0000-0000-0000-0000503bb638"
+					(reference "D10")
 					(unit 1)
 				)
 			)
