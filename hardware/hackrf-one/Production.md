@@ -9,15 +9,13 @@ The global label TX is no longer used. Don't know how to suppress this warning.
 ### BOM
 
 In eeschema (schematic editor), select "Tools->Generate Bill of Materials".
-Select the BOM plugin "KiCad_BOM_Wizard".
-Click Generate. This creates the file hardware/hackrf-one/hackrf-one.bom.csv.
-Move that file to doc/hardware/hackrf-one-gerbers/hackrf-one-bom.csv
+Click Generate. This creates the file doc/hardware/hackrf-one-gerbers/hackrf-one-bom.csv
 
 ### Assembly silk with references
 
 In pcbnew (the PCB editor) select "Plot...".
 Ensure F.SilkS (front silk) layer is selected.
-Select "Use auxiliary axis as origin"
+Select "Use Drill/place file origin"
 Deselect "Use Protel filename extensions"
 De-select "Generate Gerber job file"
 Select "Plot footprint references"
@@ -38,7 +36,7 @@ From pcbnew->Plot, select "Generate Drill Files".
 Select "Excellon".
 Tick "Minimal headers"
 Tick "PTH and NPTH in single file"
-Select Drill Origin "Auxiliary Axis"
+Select Drill Origin "Drill/place file origin"
 Select Drill Units "Inches"
 Select Zeros Format "Suppress trailing zeros"
 Click "Generate Drill File"
@@ -48,7 +46,7 @@ Click "Generate Report File" and Save
 
 ### Placement file
 
-In pcbnew, select File->Fabrication Outputs->Footprint Position (.pos) File
+In pcbnew, select File->Fabrication Outputs->Component Placement (.pos) File
 Select CSV, Inches, Single file per board.
 Click "Generate Position File"
 This makes the file doc/hardware/hackrf-one-gerbers/hackrf-one-all-pos.csv

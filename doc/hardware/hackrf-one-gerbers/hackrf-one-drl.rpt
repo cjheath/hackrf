@@ -1,5 +1,5 @@
-Drill report for /Users/cjh/work/electronics/SDR/hackrf/hardware/hackrf-one/hackrf-one.kicad_pcb
-Created on Monday, 07 September 2020 at 10:59:40 am
+Drill report for hackrf-one.kicad_pcb
+Created on 2024-10-12T12:31:29+1100
 
 Copper Layer Stackup:
     =============================================================
@@ -9,21 +9,27 @@ Copper Layer Stackup:
     L4 :  C4B                       back
 
 
-Drill file 'hackrf-one.drl' contains
+Drill file 'hackrf-one-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.33mm  0.013"  (520 holes)
-    T2  0.38mm  0.015"  (111 holes)
-    T3  0.71mm  0.028"  (12 holes)
-    T4  1.02mm  0.040"  (136 holes)
-    T5  1.30mm  0.051"  (4 holes)
-    T6  3.20mm  0.126"  (6 holes)
+    T1  0.330mm  0.0130"  (2 holes)
+    T2  0.330mm  0.0130"  (488 holes)
+    T3  0.330mm  0.0130"  (3 holes)
+    T4  0.350mm  0.0138"  (14 holes)
+    T5  0.381mm  0.0150"  (120 holes)
+    T6  0.711mm  0.0280"  (10 holes)
+    T7  0.800mm  0.0315"  (4 holes)  (with 4 slots)
+    T8  0.990mm  0.0390"  (4 holes)
+    T9  1.016mm  0.0400"  (130 holes)
+    T10  1.300mm  0.0512"  (4 holes)
+    T11  3.200mm  0.1260"  (6 holes)
 
-    Total plated holes count 789
+    Total plated holes count 785
 
 
-Not plated through holes are merged with plated holes
+Drill file 'hackrf-one-NPTH.drl' contains
     unplated through holes:
     =============================================================
+    T1  0.750mm  0.0295"  (2 holes)
 
-    Total unplated holes count 0
+    Total unplated holes count 2

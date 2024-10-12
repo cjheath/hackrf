@@ -39869,7 +39869,7 @@
 			)
 		)
 		(property "Note" "DNP"
-			(at 22.86 250.19 0)
+			(at 20.574 250.19 0)
 			(effects
 				(font
 					(size 1.524 1.524)

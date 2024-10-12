@@ -16096,6 +16096,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "DNP"
+			(at 76.2 224.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdd5efda-a2e4-448c-a231-8d27199ed32b")
 		)
@@ -23780,6 +23789,15 @@
 			)
 		)
 		(property "Part Number" "73251-2121"
+			(at 154.94 243.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "DNP"
 			(at 154.94 243.84 0)
 			(effects
 				(font
