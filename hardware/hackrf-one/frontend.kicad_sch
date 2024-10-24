@@ -429,7 +429,7 @@
 					)
 				)
 			)
-			(property "Value" "CLA4611 Limiter Diode"
+			(property "Value" "CLA4611-085LF"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1553,7 +1553,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "hackrf_MOSFET_P"
+			(property "Value" "BSS84"
 				(at 0 -4.572 0)
 				(effects
 					(font
@@ -25624,7 +25624,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MOSFET_P"
+		(property "Value" "BSS84"
 			(at 392.43 155.448 0)
 			(effects
 				(font
@@ -27483,7 +27483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CLA4611"
+		(property "Value" "CLA4611-085LF"
 			(at 381.762 212.598 90)
 			(effects
 				(font
@@ -27729,7 +27729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CLA4611"
+		(property "Value" "CLA4611-085LF"
 			(at 391.922 221.488 90)
 			(effects
 				(font
@@ -27819,7 +27819,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CLA4611"
+		(property "Value" "CLA4611-085LF"
 			(at 277.622 254.508 90)
 			(effects
 				(font

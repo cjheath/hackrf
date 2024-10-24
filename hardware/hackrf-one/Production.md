@@ -3,22 +3,20 @@
 ### Check everything
 
 In eeschema, run Inspect->Electrical Rules Checker
-The migration to Kicad5 caused some errors with connection to GND and power nets. Not sure yet how to fix these.
-The global label TX is no longer used. Don't know how to suppress this warning.
 
 ### BOM
 
 In eeschema (schematic editor), select "Tools->Generate Bill of Materials".
-Click Generate. This creates the file doc/hardware/hackrf-one-gerbers/hackrf-one-bom.csv
+Click Export. This creates the file doc/hardware/hackrf-one-gerbers/hackrf-one-bom.csv
 
 ### Assembly silk with references
 
-In pcbnew (the PCB editor) select "Plot...".
+In pcbnew (the PCB editor) select File->Plot....
 Ensure F.SilkS (front silk) layer is selected.
-Select "Use Drill/place file origin"
+Select "Use drill/place file origin"
 Deselect "Use Protel filename extensions"
 De-select "Generate Gerber job file"
-Select "Plot footprint references"
+Select "Plot reference designators"
 Click "Plot". This puts files into doc/hardware/hackrf-one-gerbers.
 Rename doc/hardware/hackrf-one-gerbers/hackrf-one-F_SilkS.gbr to doc/hardware/hackrf-one-gerbers/hackrf-one-Placement.gbr
 
@@ -26,7 +24,7 @@ Rename doc/hardware/hackrf-one-gerbers/hackrf-one-F_SilkS.gbr to doc/hardware/ha
 
 In pcbnew (the PCB editor) select "Plot...".
 Ensure all required layers are selected: C1F, C2, C3, C4B, F.Paste, F.SilkS, F.Mask, B.Mask, Edge.Cuts
-De-select "Plot footprint references"
+De-select "Plot references designators"
 Click "Plot". This puts files into doc/hardware/hackrf-one-gerbers.
 Change to that directory.
 

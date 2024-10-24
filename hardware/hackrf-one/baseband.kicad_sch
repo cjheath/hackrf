@@ -3922,7 +3922,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "hackrf_MOSFET_P"
+			(property "Value" "BSS84"
 				(at 0 -4.572 0)
 				(effects
 					(font
@@ -24959,7 +24959,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MOSFET_P"
+		(property "Value" "BSS84"
 			(at 53.34 64.008 0)
 			(effects
 				(font
