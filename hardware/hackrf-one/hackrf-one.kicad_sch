@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "00e5afbc-cf8c-40e8-b378-e4fd9cf88403")
-	(paper "User" 431.8 279.4)
+	(paper "A4")
 	(title_block
 		(title "HackRF One")
 		(date "2020-09-06")

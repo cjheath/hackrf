@@ -24959,7 +24959,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BSS84"
+		(property "Value" "AO3407A"
 			(at 53.34 64.008 0)
 			(effects
 				(font
@@ -24986,7 +24986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET P-CH 20V 4.2A SOT-23"
+		(property "Description" "MOSFET P-CH -30V -4.3A SOT23"
 			(at 53.34 68.58 0)
 			(effects
 				(font
@@ -24995,7 +24995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Diodes Inc."
+		(property "Manufacturer" "Alpha and Omega"
 			(at 53.34 68.58 0)
 			(effects
 				(font
@@ -25004,7 +25004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "DMP2305U-7"
+		(property "Part Number" "AO3407A"
 			(at 53.34 68.58 0)
 			(effects
 				(font
