@@ -1,4 +1,5 @@
 /*
+ * Copyright 2019-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2019 Dominic Spill
  *
  * This file is part of HackRF.
@@ -26,4 +27,4 @@
 
 const hackrf_ui_t* rad1o_ui_setup(void) __attribute__((weak));
 
-#endif/*__UI_RAD1O_H__*/
+#endif /*__UI_RAD1O_H__*/

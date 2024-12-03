@@ -1,4 +1,5 @@
 /*
+ * Copyright 2016-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2016 Dominic Spill <dominicgs@gmail.com>
  *
  * This file is part of HackRF.
@@ -25,16 +26,32 @@
 #include <usb_type.h>
 #include <usb_request.h>
 
-usb_request_status_t  usb_vendor_request_operacake_get_boards(
-	usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+usb_request_status_t usb_vendor_request_operacake_get_boards(
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 
 usb_request_status_t usb_vendor_request_operacake_set_ports(
-	usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 
 usb_request_status_t usb_vendor_request_operacake_set_ranges(
-	usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 
 usb_request_status_t usb_vendor_request_operacake_gpio_test(
-	usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
+
+usb_request_status_t usb_vendor_request_operacake_set_mode(
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
+
+usb_request_status_t usb_vendor_request_operacake_get_mode(
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
+
+usb_request_status_t usb_vendor_request_operacake_set_dwell_times(
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 
 #endif /* end of include guard: __USB_API_OPERACAKE_H__ */

@@ -1,4 +1,5 @@
 /*
+ * Copyright 2020-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2020 Mike Walters
  *
  * This file is part of HackRF.
@@ -30,8 +31,8 @@
 
 usb_request_status_t usb_vendor_request_set_ui_enable(
 	usb_endpoint_t* const endpoint,
-	const usb_transfer_stage_t stage
-) {
+	const usb_transfer_stage_t stage)
+{
 	if (stage == USB_TRANSFER_STAGE_SETUP) {
 		hackrf_ui_set_enable(endpoint->setup.value);
 		usb_transfer_schedule_ack(endpoint->in);

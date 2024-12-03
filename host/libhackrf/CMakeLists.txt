@@ -21,10 +21,10 @@
 
 # Based heavily upon the libftdi cmake setup.
 
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 2.8.12)
 project(libhackrf C)
 set(MAJOR_VERSION 0)
-set(MINOR_VERSION 5)
+set(MINOR_VERSION 9)
 set(PACKAGE libhackrf)
 set(VERSION_STRING ${MAJOR_VERSION}.${MINOR_VERSION})
 set(VERSION ${VERSION_STRING})

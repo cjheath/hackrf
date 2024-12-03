@@ -1,4 +1,5 @@
 /*
+ * Copyright 2016-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2016 Dominic Spill <dominicgs@gmail.com>
  *
  * This file is part of HackRF.
@@ -23,8 +24,7 @@
 #define __OPERACAKE_H
 
 #ifdef __cplusplus
-extern "C"
-{
+extern "C" {
 #endif
 
 #include <stdint.h>
@@ -42,13 +42,15 @@ extern "C"
 
 #define MAX_OPERACAKE_RANGES 8
 
-/* Up to 8 Operacake boards can be used with one HackRF */
-extern uint8_t operacake_boards[8];
-
 uint8_t operacake_init(bool allow_gpio);
+bool operacake_is_board_present(uint8_t address);
+void operacake_get_boards(uint8_t* addresses);
+bool operacake_set_mode(uint8_t address, uint8_t mode);
+uint8_t operacake_get_mode(uint8_t address);
 uint8_t operacake_set_ports(uint8_t address, uint8_t PA, uint8_t PB);
 uint8_t operacake_add_range(uint16_t freq_min, uint16_t freq_max, uint8_t port);
 uint8_t operacake_set_range(uint32_t freq_mhz);
+void operacake_clear_ranges(void);
 uint16_t gpio_test(uint8_t address);
 
 #ifdef __cplusplus

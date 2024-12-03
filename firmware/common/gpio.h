@@ -1,4 +1,5 @@
 /*
+ * Copyright 2014-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright (C) 2014 Jared Boone, ShareBrained Technology, Inc.
  *
  * This file is part of HackRF.
@@ -35,4 +36,4 @@ void gpio_input(gpio_t gpio);
 void gpio_write(gpio_t gpio, const bool value);
 bool gpio_read(gpio_t gpio);
 
-#endif/*__GPIO_H__*/
+#endif /*__GPIO_H__*/

@@ -1,5 +1,5 @@
 /*
- * Copyright 2012 Michael Ossmann <mike@ossmann.com>
+ * Copyright 2012-2021 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2012 Jared Boone <jared@sharebrained.com>
  *
  * This file is part of HackRF
@@ -22,7 +22,7 @@
 
 SECTIONS
 {
-	.text : {
+	.m0_text : {
 		PROVIDE(__m0_start__ = .);
 		KEEP(*(.m0_bin*));
 		. = ALIGN(4);

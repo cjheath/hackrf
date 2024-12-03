@@ -1,4 +1,5 @@
 /*
+ * Copyright 2014-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright (C) 2014 Jared Boone, ShareBrained Technology, Inc.
  *
  * This file is part of HackRF.
@@ -26,4 +27,4 @@
 
 void w25q80bv_target_init(w25q80bv_driver_t* const drv);
 
-#endif/*__W25Q80BV_TARGET_H__*/
+#endif /*__W25Q80BV_TARGET_H__*/

@@ -1,5 +1,5 @@
 /*
- * Copyright 2012 Michael Ossmann <mike@ossmann.com>
+ * Copyright 2012-2021 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2012 Jared Boone <jared@sharebrained.com>
  *
  * This file is part of HackRF
@@ -34,6 +34,5 @@ MEMORY
 }
 
 usb_bulk_buffer = ORIGIN(ram_usb);
-usb_bulk_buffer_offset = ORIGIN(ram_shared);
-usb_bulk_buffer_tx = ORIGIN(ram_shared)+4;
+m0_state = ORIGIN(ram_shared);
 PROVIDE(__ram_m0_start__ = ORIGIN(ram_m0));

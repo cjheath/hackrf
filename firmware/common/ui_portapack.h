@@ -1,4 +1,5 @@
 /*
+ * Copyright 2018-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2018 Jared Boone
  *
  * This file is part of HackRF.
@@ -26,4 +27,4 @@
 
 const hackrf_ui_t* portapack_hackrf_ui_init() __attribute__((weak));
 
-#endif/*__UI_PORTAPACK_H__*/
+#endif /*__UI_PORTAPACK_H__*/

@@ -1,4 +1,5 @@
 /*
+ * Copyright 2014-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright (C) 2014 Jared Boone, ShareBrained Technology, Inc.
  *
  * This file is part of HackRF.
@@ -34,19 +35,21 @@ struct i2c_bus_t {
 	void (*stop)(i2c_bus_t* const bus);
 	void (*transfer)(
 		i2c_bus_t* const bus,
-		const uint_fast8_t slave_address,
-		const uint8_t* const tx, const size_t tx_count,
-		uint8_t* const rx, const size_t rx_count
-	);
+		const uint_fast8_t peripheral_address,
+		const uint8_t* const tx,
+		const size_t tx_count,
+		uint8_t* const rx,
+		const size_t rx_count);
 };
 
 void i2c_bus_start(i2c_bus_t* const bus, const void* const config);
 void i2c_bus_stop(i2c_bus_t* const bus);
 void i2c_bus_transfer(
 	i2c_bus_t* const bus,
-	const uint_fast8_t slave_address,
-	const uint8_t* const tx, const size_t tx_count,
-	uint8_t* const rx, const size_t rx_count
-);
+	const uint_fast8_t peripheral_address,
+	const uint8_t* const tx,
+	const size_t tx_count,
+	uint8_t* const rx,
+	const size_t rx_count);
 
-#endif/*__I2C_BUS_H__*/
+#endif /*__I2C_BUS_H__*/

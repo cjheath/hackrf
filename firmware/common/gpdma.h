@@ -1,4 +1,5 @@
 /*
+ * Copyright 2013-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2013 Jared Boone <jared@sharebrained.com>
  *
  * This file is part of HackRF.
@@ -40,4 +41,4 @@ void gpdma_lli_enable_interrupt(gpdma_lli_t* const lli);
 void gpdma_lli_create_loop(gpdma_lli_t* const lli, const size_t lli_count);
 void gpdma_lli_create_oneshot(gpdma_lli_t* const lli, const size_t lli_count);
 
-#endif/*__GPDMA_H__*/
+#endif /*__GPDMA_H__*/

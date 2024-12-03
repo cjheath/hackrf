@@ -52,7 +52,6 @@ ExternalProject_Add(libopencm3_${PROJECT_NAME}
 	INSTALL_COMMAND ""
 )
 
-#set(VERSION "")
 if (NOT DEFINED VERSION)
 	execute_process(
 		COMMAND git log -n 1 --format=%h
@@ -63,7 +62,7 @@ if (NOT DEFINED VERSION)
 		OUTPUT_STRIP_TRAILING_WHITESPACE
 	)
 	if (GIT_VERSION_FOUND)
-		set(VERSION "unknown")
+		set(VERSION "2024.02.1+")
 	else (GIT_VERSION_FOUND)
 		set(VERSION "git-${GIT_VERSION}")
 	endif (GIT_VERSION_FOUND)
@@ -117,9 +116,33 @@ include_directories("${LIBOPENCM3}/include/")
 include_directories("${PATH_HACKRF_FIRMWARE_COMMON}")
 
 macro(DeclareTarget project_name variant_suffix cflags ldflags)
-	add_library(${project_name}${variant_suffix}_objects OBJECT ${SRC_M4} m0_bin.s)
+	# Generate M0 bin from elf
+	add_custom_command(
+		OUTPUT ${project_name}${variant_suffix}_m0.bin
+		DEPENDS ${PROJECT_NAME}_m0.elf
+		COMMAND ${CMAKE_OBJCOPY} -Obinary ${PROJECT_NAME}_m0.elf ${project_name}${variant_suffix}_m0.bin
+	)
+
+	# Generate asm source that includes the M0 bin
+	add_custom_command(
+		OUTPUT ${project_name}${variant_suffix}_m0_bin.s
+		DEPENDS
+			${project_name}${variant_suffix}_m0.bin
+			${PATH_HACKRF_FIRMWARE_COMMON}/m0_bin.s.cmake
+			${PATH_HACKRF_FIRMWARE_COMMON}/configure_file.cmake
+		COMMAND
+			${CMAKE_COMMAND}
+			-DSRC=${PATH_HACKRF_FIRMWARE_COMMON}/m0_bin.s.cmake
+			-DDEST=${project_name}${variant_suffix}_m0_bin.s
+			-DBIN=${CMAKE_CURRENT_BINARY_DIR}/${project_name}${variant_suffix}_m0.bin
+			-P ${PATH_HACKRF_FIRMWARE_COMMON}/configure_file.cmake
+		# `configure_file` only updates the output if the input changed, but it can't recognise when the bin changes.
+		# So, force an update with `touch`
+		COMMAND ${CMAKE_COMMAND} -E touch ${project_name}${variant_suffix}_m0_bin.s
+	)
+
+	add_library(${project_name}${variant_suffix}_objects OBJECT ${SRC_M4} ${project_name}${variant_suffix}_m0_bin.s)
 	set_target_properties(${project_name}${variant_suffix}_objects PROPERTIES COMPILE_FLAGS "${cflags}")
-	add_dependencies(${project_name}${variant_suffix}_objects ${project_name}_m0.bin)
 	add_executable(${project_name}${variant_suffix}.elf $<TARGET_OBJECTS:${project_name}${variant_suffix}_objects>)
 	add_dependencies(${project_name}${variant_suffix}.elf libopencm3_${project_name})
 
@@ -147,8 +170,11 @@ macro(DeclareTargets)
 		${PATH_HACKRF_FIRMWARE_COMMON}/sgpio.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/rf_path.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/si5351c.c
+		${PATH_HACKRF_FIRMWARE_COMMON}/max283x.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/max2837.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/max2837_target.c
+		${PATH_HACKRF_FIRMWARE_COMMON}/max2839.c
+		${PATH_HACKRF_FIRMWARE_COMMON}/max2839_target.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/max5864.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/max5864_target.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/mixer.c
@@ -160,7 +186,12 @@ macro(DeclareTargets)
 		${PATH_HACKRF_FIRMWARE_COMMON}/spi_ssp.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/gpio_lpc.c
 		${PATH_HACKRF_FIRMWARE_COMMON}/hackrf_ui.c
-	)
+		${PATH_HACKRF_FIRMWARE_COMMON}/platform_detect.c
+		${PATH_HACKRF_FIRMWARE_COMMON}/firmware_info.c
+		${PATH_HACKRF_FIRMWARE_COMMON}/clkin.c
+		${PATH_HACKRF_FIRMWARE_COMMON}/gpdma.c
+		${PATH_HACKRF_FIRMWARE_COMMON}/user_config.c
+		)
 
 	if(BOARD STREQUAL "RAD1O")
 		SET(SRC_M4
@@ -175,11 +206,6 @@ macro(DeclareTargets)
 			${PATH_HACKRF_FIRMWARE_COMMON}/rffc5071_spi.c
 		)
 	endif()
-
-	configure_file(
-		${PATH_HACKRF_FIRMWARE_COMMON}/m0_bin.s.cmake
-		m0_bin.s
-	)
 
 	link_directories(
 		"${PATH_HACKRF_FIRMWARE_COMMON}"
@@ -201,12 +227,6 @@ macro(DeclareTargets)
 	set_target_properties(${PROJECT_NAME}_m0.elf PROPERTIES COMPILE_FLAGS "${CFLAGS_M0}")
 	set_target_properties(${PROJECT_NAME}_m0.elf PROPERTIES LINK_FLAGS "${LDFLAGS_M0}")
 
-	add_custom_target(
-		${PROJECT_NAME}_m0.bin
-		DEPENDS ${PROJECT_NAME}_m0.elf
-		COMMAND ${CMAKE_OBJCOPY} -Obinary ${PROJECT_NAME}_m0.elf ${PROJECT_NAME}_m0.bin
-	)
-
 	DeclareTarget("${PROJECT_NAME}" "" "${CFLAGS_M4}" "${LDFLAGS_M4}")	
 	DeclareTarget("${PROJECT_NAME}" "_ram" "${CFLAGS_M4_RAM}" "${LDFLAGS_M4_RAM}")	
 	DeclareTarget("${PROJECT_NAME}" "_dfu" "${CFLAGS_M4_RAM} -DDFU_MODE" "${LDFLAGS_M4_RAM}")	
@@ -217,7 +237,7 @@ macro(DeclareTargets)
 		COMMAND rm -f _tmp.dfu _header.bin
 		COMMAND cp ${PROJECT_NAME}_dfu.bin _tmp.dfu
 		COMMAND dfu-suffix --vid=0x1fc9 --pid=0x000c --did=0x0 -a _tmp.dfu
-		COMMAND python ${PATH_DFU_PY} ${PROJECT_NAME}
+		COMMAND python3 ${PATH_DFU_PY} ${PROJECT_NAME}
 		COMMAND cat _header.bin _tmp.dfu >${PROJECT_NAME}.dfu
 		COMMAND rm -f _tmp.dfu _header.bin
 	)

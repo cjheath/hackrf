@@ -1,0 +1,14 @@
+name: Documentation 
+description: Make a request regarding HackRF documentation 
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to help Great Scott Gadgets improve the HackRF One documentation! 
+  - type: textarea
+    id: documentation-request
+    attributes:
+      label: What would you like us to add to or change about the HackRF One documentation?
+    validations:
+      required: true

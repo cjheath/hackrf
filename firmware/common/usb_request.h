@@ -1,4 +1,5 @@
 /*
+ * Copyright 2012-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2012 Jared Boone
  *
  * This file is part of HackRF.
@@ -41,11 +42,10 @@ typedef enum {
 	USB_REQUEST_STATUS_OK = 0,
 	USB_REQUEST_STATUS_STALL = 1,
 } usb_request_status_t;
-	
+
 typedef usb_request_status_t (*usb_request_handler_fn)(
 	usb_endpoint_t* const endpoint,
-	const usb_transfer_stage_t stage
-);
+	const usb_transfer_stage_t stage);
 
 typedef struct {
 	usb_request_handler_fn standard;
@@ -56,16 +56,10 @@ typedef struct {
 
 extern const usb_request_handlers_t usb_request_handlers;
 
-void usb_setup_complete(
-	usb_endpoint_t* const endpoint
-);
+void usb_setup_complete(usb_endpoint_t* const endpoint);
 
-void usb_control_in_complete(
-	usb_endpoint_t* const endpoint
-);
+void usb_control_in_complete(usb_endpoint_t* const endpoint);
 
-void usb_control_out_complete(
-	usb_endpoint_t* const endpoint
-);
+void usb_control_out_complete(usb_endpoint_t* const endpoint);
 
-#endif//__USB_REQUEST_H__
+#endif //__USB_REQUEST_H__

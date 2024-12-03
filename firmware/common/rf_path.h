@@ -1,4 +1,5 @@
 /*
+ * Copyright 2012-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2012 Jared Boone
  * Copyright 2013 Benjamin Vernoux
  *
@@ -81,4 +82,4 @@ void rf_path_set_filter(rf_path_t* const rf_path, const rf_path_filter_t filter)
 void rf_path_set_lna(rf_path_t* const rf_path, const uint_fast8_t enable);
 void rf_path_set_antenna(rf_path_t* const rf_path, const uint_fast8_t enable);
 
-#endif/*__RFPATH_H__*/
+#endif /*__RFPATH_H__*/

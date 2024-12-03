@@ -1,4 +1,5 @@
 /*
+ * Copyright 2019-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright (C) 2019 Jared Boone, ShareBrained Technology, Inc.
  *
  * This file is part of HackRF.
@@ -26,9 +27,10 @@
 
 #include <stddef.h>
 
-#define UNUSED(x) (void)(x)
+#define UNUSED(x) (void) (x)
 
 /* Stub functions for null UI function table */
+// clang-format off
 void hackrf_ui_init_null(void) { }
 void hackrf_ui_deinit_null(void) { }
 void hackrf_ui_set_frequency_null(uint64_t frequency) { UNUSED(frequency); }
@@ -43,7 +45,10 @@ void hackrf_ui_set_first_if_frequency_null(const uint64_t frequency) { UNUSED(fr
 void hackrf_ui_set_filter_null(const rf_path_filter_t filter) { UNUSED(filter); }
 void hackrf_ui_set_antenna_bias_null(bool antenna_bias) { UNUSED(antenna_bias); }
 void hackrf_ui_set_clock_source_null(clock_source_t source) { UNUSED(source); }
+void hackrf_ui_set_transceiver_mode_null(transceiver_mode_t mode) { UNUSED(mode); }
 bool hackrf_ui_operacake_gpio_compatible_null(void) { return true; }
+
+// clang-format on
 
 /* Null UI function table, used if there's no hardware UI detected. Eliminates the
  * need to check for null UI before calling a function in the table.
@@ -63,34 +68,36 @@ static const hackrf_ui_t hackrf_ui_null = {
 	&hackrf_ui_set_filter_null,
 	&hackrf_ui_set_antenna_bias_null,
 	&hackrf_ui_set_clock_source_null,
-	&hackrf_ui_operacake_gpio_compatible_null
-};
+	&hackrf_ui_set_transceiver_mode_null,
+	&hackrf_ui_operacake_gpio_compatible_null};
 
 static const hackrf_ui_t* ui = NULL;
 static bool ui_enabled = true;
 
-const hackrf_ui_t* hackrf_ui(void) {
+const hackrf_ui_t* hackrf_ui(void)
+{
 	/* Detect on first use. If no UI hardware is detected, use a stub function table. */
-	if( ui == NULL && ui_enabled ) {
+	if (ui == NULL && ui_enabled) {
 #ifdef HACKRF_ONE
-		if( portapack_hackrf_ui_init ) {
+		if (portapack_hackrf_ui_init) {
 			ui = portapack_hackrf_ui_init();
 		}
 #endif
 #ifdef RAD1O
-		if( rad1o_ui_setup ) {
+		if (rad1o_ui_setup) {
 			ui = rad1o_ui_setup();
 		}
 #endif
 	}
 
-	if( ui == NULL ) {
+	if (ui == NULL) {
 		ui = &hackrf_ui_null;
 	}
 	return ui;
 }
 
-void hackrf_ui_set_enable(bool enabled) {
+void hackrf_ui_set_enable(bool enabled)
+{
 	if (ui_enabled != enabled) {
 		ui_enabled = enabled;
 		hackrf_ui()->deinit();

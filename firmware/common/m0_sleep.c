@@ -1,4 +1,5 @@
 /*
+ * Copyright 2013-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2013 Jared Boone <jared@sharebrained.com>
  *
  * This file is part of HackRF.
@@ -19,8 +20,7 @@
  * Boston, MA 02110-1301, USA.
  */
 
-int main() {
-	while(1) {
-		
-	}
+int main()
+{
+	while (1) {}
 }

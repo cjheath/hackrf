@@ -37,6 +37,7 @@ SET(TOOLS
 	hackrf_clock
 	hackrf_sweep
 	hackrf_operacake
+	hackrf_biast
 )
 
 if(MSVC)
@@ -64,3 +65,10 @@ foreach(tool ${TOOLS})
 	target_link_libraries(${tool} ${TOOLS_LINK_LIBS})
 	install(TARGETS ${tool} RUNTIME DESTINATION ${INSTALL_DEFAULT_BINDIR})
 endforeach(tool)
+
+if( ${WIN32} )
+	install(DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/$<CONFIGURATION>/"
+        	DESTINATION ${INSTALL_DEFAULT_BINDIR}
+			FILES_MATCHING
+			PATTERN "fftw*.dll")
+endif( ${WIN32} )

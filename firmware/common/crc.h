@@ -1,4 +1,5 @@
 /*
+ * Copyright 2019-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2019 Jared Boone <jared@sharebrained.com>
  *
  * This file is part of HackRF.
@@ -35,4 +36,4 @@ void crc32_init(crc32_t* const crc);
 void crc32_update(crc32_t* const crc, const uint8_t* const data, const size_t byte_count);
 uint32_t crc32_digest(const crc32_t* const crc);
 
-#endif//__CRC_H__
+#endif //__CRC_H__

@@ -6,14 +6,7 @@
 *.srec
 host/build/
 host/**/build
-
-fp-info-cache
-sym-lib-table
-hackrf-one-rescue.dcm
-hackrf-one-rescue.lib
-hackrf-one.xml
-rescue-backup/
-*-bak
+install/
 
 # Operating system spew
 .DS_Store
@@ -27,6 +20,21 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 .vscode*
+
+# Documentation Stuff
+docs/build/
+
+# Kicad junk
+fp-info-cache
+sym-lib-table
+hackrf-one-rescue.dcm
+hackrf-one-rescue.lib
+hackrf-one.xml
+rescue-backup/
+*-bak
+
+# Old manufacturing files
+doc/hardware/hackrf-one-fabrication-draft*
 
 # Xilinx tools create an enormous amount of poop:
 firmware/cpld/**/isim/

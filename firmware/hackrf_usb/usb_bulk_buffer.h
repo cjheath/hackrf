@@ -1,4 +1,5 @@
 /*
+ * Copyright 2012-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2012 Jared Boone
  * Copyright 2013 Benjamin Vernoux
  *
@@ -26,14 +27,13 @@
 #include <stdbool.h>
 #include <stdint.h>
 
+#define USB_BULK_BUFFER_SIZE 0x8000
+#define USB_BULK_BUFFER_MASK 0x7FFF
+
 /* Address of usb_bulk_buffer is set in ldscripts. If you change the name of this
  * variable, it won't be where it needs to be in the processor's address space,
  * unless you also adjust the ldscripts.
  */
-extern uint8_t usb_bulk_buffer[32768];
+extern uint8_t usb_bulk_buffer[USB_BULK_BUFFER_SIZE];
 
-extern volatile uint32_t usb_bulk_buffer_offset;
-
-extern bool usb_bulk_buffer_tx;
-
-#endif/*__USB_BULK_BUFFER_H__*/
+#endif /*__USB_BULK_BUFFER_H__*/

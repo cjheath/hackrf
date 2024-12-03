@@ -1,4 +1,5 @@
 /*
+ * Copyright 2012-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2012 Jared Boone
  * Copyright 2013 Benjamin Vernoux
  *
@@ -27,14 +28,19 @@
 #include <usb_request.h>
 
 usb_request_status_t usb_vendor_request_erase_spiflash(
-	usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 usb_request_status_t usb_vendor_request_write_spiflash(
-	usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 usb_request_status_t usb_vendor_request_read_spiflash(
-	usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 usb_request_status_t usb_vendor_request_spiflash_status(
-	usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 usb_request_status_t usb_vendor_request_spiflash_clear_status(
-		usb_endpoint_t* const endpoint, const usb_transfer_stage_t stage);
+	usb_endpoint_t* const endpoint,
+	const usb_transfer_stage_t stage);
 
 #endif /* end of include guard: __USB_API_SPIFLASH_H__ */

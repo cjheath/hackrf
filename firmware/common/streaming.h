@@ -1,4 +1,5 @@
 /*
+ * Copyright 2012-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright 2012 Jared Boone
  * Copyright 2013 Benjamin Vernoux
  *
@@ -28,4 +29,4 @@
 void baseband_streaming_enable(sgpio_config_t* const sgpio_config);
 void baseband_streaming_disable(sgpio_config_t* const sgpio_config);
 
-#endif/*__STREAMING_H__*/
+#endif /*__STREAMING_H__*/

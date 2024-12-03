@@ -1,4 +1,5 @@
 /*
+ * Copyright 2014-2022 Great Scott Gadgets <info@greatscottgadgets.com>
  * Copyright (C) 2014 Jared Boone, ShareBrained Technology, Inc.
  *
  * This file is part of HackRF.
@@ -26,4 +27,4 @@
 
 void max5864_target_init(max5864_driver_t* const drv);
 
-#endif/*__MAX5864_TARGET_H__*/
+#endif /*__MAX5864_TARGET_H__*/
