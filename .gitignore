@@ -32,6 +32,7 @@ hackrf-one-rescue.lib
 hackrf-one.xml
 rescue-backup/
 *-bak
+~*.kicad_*.lck
 
 # Old manufacturing files
 doc/hardware/hackrf-one-fabrication-draft*

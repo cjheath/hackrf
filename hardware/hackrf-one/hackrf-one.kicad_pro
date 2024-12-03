@@ -2163,6 +2163,12 @@
           "label": "Description",
           "name": "Description",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Substitution",
+          "name": "Substitution",
+          "show": false
         }
       ],
       "filter_string": "",

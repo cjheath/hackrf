@@ -9618,7 +9618,7 @@
 	)
 	(symbol
 		(lib_id "hackrf-one:FIL-LP0603-hackrf")
-		(at 289.56 58.42 0)
+		(at 289.56 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9626,7 +9626,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f94d561")
 		(property "Reference" "U3"
-			(at 289.56 57.15 0)
+			(at 289.56 59.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9634,7 +9634,7 @@
 			)
 		)
 		(property "Value" "RX_LOWPASS_FILTER"
-			(at 289.56 59.69 0)
+			(at 289.56 57.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
